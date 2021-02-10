@@ -1,0 +1,119 @@
+.container{
+  width: 740px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 440px;
+}
+.hlavicka{
+  width: 1300px;
+  height:400px;
+  background-size:100%;
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%);
+  color: #222;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+}
+
+.nadpis_hl{
+  position:relative;
+  top: 210px;
+  left: 300px;
+}
+
+#nadpis_special{
+  top: 145px;
+  font-size: 80px;
+}
+
+p, li {
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 30px;
+  Color:#222;
+  font-size: 15.5px;
+}
+
+.titulek{
+  background: #505050;
+  color: white;
+  width:740px;
+  padding: 50px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.titulek::before {
+  content: '”';
+  position: absolute;
+  top: -20%;
+  left: 1%;
+  font-size: 90px;
+  transform: rotate(180deg);
+}
+
+.nadpis{
+ font-family: 'Josefin Sans', sans-serif;
+ text-transform: uppercase;
+ font-size: 25px;
+ color: #0000000;
+ padding-bottom: 25px;
+}
+
+.nadpis2 {
+font-family: 'Josefin Sans', sans-serif;  
+font-size: 20px;
+font-weight: bold;
+line-height: 30px;
+}
+
+.nadpis3 {
+  font-family: 'Merriweather', serif;
+  font-style:Italic;
+  font-size: 15px;
+  position: relative;
+  top: -17px;
+  left: 0%;
+}
+
+#nadpisSpec {
+  border-top: 5px solid black;
+  padding-top: 50px;
+  padding-left: 10px;
+  margin-top:40px;
+}
+
+#vetsi,#vetsi2,#vetsi3,#vetsi4,#vetsi5 {
+  font-size: 20px;
+}
+/*#leftB {
+  font-family: 'Josefin Sans', sans-serif;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 180px;
+  height: 40px;
+  text-align: center;
+  background-color: white;
+  padding-top: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  border: none;
+  
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+*/
